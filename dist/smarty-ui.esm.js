@@ -38,7 +38,7 @@ const props = {
     default: ""
   }
 };
-const SButton = defineComponent({
+const Button = defineComponent({
   name: "SButton",
   props,
   setup(props2, {
@@ -56,13 +56,14 @@ const entry = {
     app.component(RenderButton.name, RenderButton);
     app.component(SFCButton.name, SFCButton);
     app.component(JsxButton.name, JsxButton);
-    app.component(SButton.name, SButton);
+    app.component(Button.name, Button);
   }
 };
 export {
   JsxButton,
   RenderButton,
-  SButton,
+  Button as SButton,
   SFCButton,
   entry as default
 };
+//# sourceMappingURL=smarty-ui.esm.js.map
