@@ -24,7 +24,7 @@ jobs:
       - name: "Publish to the npm registry"
         uses: primer/publish@3.0.0
         env:
-          GITHUB_TOKEN: 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   # github personal access token
+          GITHUB_TOKEN: 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   # github personal access token
           NPM_AUTH_TOKEN: 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 # 跟前面步骤中的 NPM_AUTH_TOKEN 保持一致
         with:
           default_branch: "publish"
